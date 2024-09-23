@@ -6,4 +6,4 @@ b = int(input())
 
 French_Student = set(input().split())
 
-print(len(English_Student.union(French_Student)))
+print(len(English_Student.symmetric_difference(French_Student)))
