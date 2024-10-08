@@ -8,3 +8,5 @@ for x in range(N):
     
 for item, price in dict1.items():
     print(f"{item} {price}")
+
+ 
